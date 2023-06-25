@@ -1,8 +1,8 @@
 import EventItem from "./event-item";
-import styles from './event-item.module.css'
+import styles from './event-list.module.css'
 function EventList(props) {
   const { items } = props;
-  console.log(items[0].location)
+  console.log(items)
   return (
     <ul className={styles.list}>
       {items.map((item) => (
